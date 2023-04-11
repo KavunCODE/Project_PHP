@@ -1,0 +1,16 @@
+.regdiv {
+    position: absolute; /* position the div */
+    top: 50%; /* position the top of the div at 50% of the parent container */
+    left: 50%; /* position the left of the div at 50% of the parent container */
+    transform: translate(-50%, -50%);
+    font-family: 'Kristen ITC';
+    font-size: 20px;
+    //Berlin Sans FB Demi
+}
+.registrationWord {
+    font-size: 62px;
+    position: relative; /* position the div */
+    top: 50%; /* position the top of the div at 50% of the parent container */
+    left: 40%; /* position the left of the div at 50% of the parent container */
+    transform: translate(-50%, -50%);
+}
