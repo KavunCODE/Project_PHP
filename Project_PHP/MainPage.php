@@ -14,12 +14,10 @@
         <?php  } ?>
         <input type="text" name="uName" placeholder="User Name"><br>
         <input type="password" name="uPassword" placeholder="Password"><br>
-        <button type="submit">Login</button>
+        <button type="submit">Login</button> <br>
+        <button type="button" onclick="location.href='./RegistrationPage.php'">Registration form</button>
     </form>
-    <form action="RegistrationPage.php" method="post">
-        <br>
-        <button type="submit">Registration form</button>
-    </form>
+        
 
 </body>
 </html>

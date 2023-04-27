@@ -35,7 +35,7 @@ if(isset($_POST['uName']) && isset($_POST['uEmail']) && isset($_POST['uPassword'
 
     if(mail($to, $subject, $message, $headers))
     {
-        echo "<div class="registrationWord">Activation email sent. Please check your inbox.</div>";
+        echo "<h3>Activation email sent. Please check your inbox.</h3>";
     }
     else
     {
